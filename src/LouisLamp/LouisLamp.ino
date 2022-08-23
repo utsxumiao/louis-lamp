@@ -19,8 +19,8 @@
 #define STR(x) STR_HELPER(x)
 #endif
 
-const char* ssid = "COMGIC";
-const char* password = "";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 uint8_t ledBrightness = 10; //10-100
 uint8_t ledColourIndex = 0;
 uint8_t ledColours[12][3] = {
